@@ -15,7 +15,7 @@ app.get('/posts', (req, res) => {
 });
 
 mongoose.connect('mongodb+srv://emma:<password>@untamedcluster.fhw2j.mongodb.net/test', 
-    {useNewUrlParser: true},
+    { useNewUrlParser: true },
     () => console.log('untamed shit post has started!')
 );
 
