@@ -1,18 +1,17 @@
 const mongoose = require('mongoose');
-const { stringify } = require('querystring');
 
 const PostSchema = mongoose.Schema({
-    name:{
+    name: {
         type: String,
-        required:true
+        required: true
     },
-    title:{
-        type:String,
-        required:true
+    title: {
+        type: String,
+        required: true
     },
-    partner:{
-        type:String,
-        required:false
+    partner: {
+        type: String,
+        required: true
     }
 });
 
